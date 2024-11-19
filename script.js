@@ -7,9 +7,9 @@ function drawGrid() {
         gridRow.classList.add("gridRow");
 
         for (let z = 1; z <= gridSize; z++){
-            const gridItem = document.createElement('div');
-            gridItem.classList.add("gridItem");
-            gridRow.appendChild(gridItem);
+            const gridItems = document.createElement('div');
+            gridItems.classList.add("gridItem");
+            gridRow.appendChild(gridItems);
         }
 
         grid.appendChild(gridRow);
@@ -17,3 +17,12 @@ function drawGrid() {
 }
 
 drawGrid();
+
+
+const gridItems = document.querySelectorAll(".gridItem");
+
+gridItems.forEach(gridItem => {
+    gridItem.addEventListener('mouseover', () => {
+        gridItem.style.backgroundColor = "var(--OFF_WHITE)";
+    })
+})

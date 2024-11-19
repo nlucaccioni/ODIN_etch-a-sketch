@@ -7,6 +7,7 @@
 :root {
     --bg-color: hsl(0, 0%, 5%);
     --OFF_WHITE: hsl(51, 36%, 89%);
+    --OFF_WHITE-border: hsl(51, 36%, 89%, 20%);
 }
 
 body {
@@ -49,7 +50,8 @@ h1 {
     display: flex;
     width: 100%;
     aspect-ratio: 1;
-    border: solid var(--OFF_WHITE) 1px;
-    opacity: 20%;
+    border: solid var(--OFF_WHITE-border) 1px;
     margin: 1px;
+    transition: all 600ms;
+    transition-timing-function:ease;
 }
