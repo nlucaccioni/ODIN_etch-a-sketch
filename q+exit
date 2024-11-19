@@ -1,0 +1,29 @@
+[33mcommit b7410fa70c759f0da0ff584419a2e03a15b4773e[m[33m ([m[1;36mHEAD[m[33m -> [m[1;32mmain[m[33m)[m
+Author: nlucaccioni <n.lucaccioni@gmail.com>
+Date:   Mon Nov 18 21:55:32 2024 -0600
+
+    Add mouseover/hover effect to achieve etch-a-sketch functionality
+
+[33mcommit c9a660dbb57b3fdcda397c999e2bb160d3f63cdd[m
+Author: nlucaccioni <n.lucaccioni@gmail.com>
+Date:   Mon Nov 18 21:39:07 2024 -0600
+
+    Finish initial styling, added google-font 'Work Sans'.
+
+[33mcommit 88951395c933cd46a29e6ada27d919603c5dcb55[m
+Author: nlucaccioni <n.lucaccioni@gmail.com>
+Date:   Mon Nov 18 20:59:59 2024 -0600
+
+    Add initial grid logic for 16x16 and add header.
+
+[33mcommit 4f3e75364a3480cf66a952b2faa270bb178a5cc0[m
+Author: nlucaccioni <n.lucaccioni@gmail.com>
+Date:   Mon Nov 18 19:48:42 2024 -0600
+
+    Fill out README.
+
+[33mcommit c5110f8a822eb19c5146249474d17e94953668f3[m[33m ([m[1;31morigin/main[m[33m, [m[1;31morigin/HEAD[m[33m)[m
+Author: Nicholas Lucaccioni <37583758+nlucaccioni@users.noreply.github.com>
+Date:   Mon Nov 18 19:46:13 2024 -0600
+
+    Initial commit

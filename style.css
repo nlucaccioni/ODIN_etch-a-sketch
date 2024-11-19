@@ -16,7 +16,7 @@ body {
     align-items: center;
     justify-content: center;
     font-family: 'Work Sans', sans-serif;
-    height: 100vh;
+    height:100dvh;
     background-color: var(--bg-color);
     color: var(--OFF_WHITE);
 }
@@ -37,8 +37,14 @@ h1 {
     font-size: 5em;
 }
 
+main {
+    display:flex;
+    justify-content: center;
+}
+
 #gridContain {
-    width: 80vw;
+    width: 60vh;
+    max-width:80%;
 }
 
 .gridRow {
@@ -54,4 +60,29 @@ h1 {
     margin: 1px;
     transition: all 600ms;
     transition-timing-function:ease;
+}
+
+footer {
+    margin-top: 3em;
+}
+
+footer button {
+    padding: 1rem 2rem;
+    background-color: var(--bg-color);
+    border: solid var(--OFF_WHITE-border) 1px;
+    border-radius: 10px;
+    font-size: 1.2em;
+    text-transform: uppercase;
+    letter-spacing: 0.1rem;
+    font-weight: 600;
+    font-family: 'Work Sans', sans-serif;
+    color: var(--OFF_WHITE);
+    transition: all 600ms;
+}
+
+footer button:hover {
+    background-color: var(--OFF_WHITE);
+    color: var(--bg-color);
+
+    transform:scale(1.05);
 }
