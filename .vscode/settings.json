@@ -1,0 +1,8 @@
+{
+    "liveServer.settings.https": {
+    "passphrase": "true",
+    "key": "true",
+    "cert": "true",
+    "enable": 1
+},
+}

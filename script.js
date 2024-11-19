@@ -1,4 +1,4 @@
-let grid = document.querySelector("main");
+let grid = document.querySelector("#gridContain");
 let gridSize = 16;
 
 function drawGrid() {
