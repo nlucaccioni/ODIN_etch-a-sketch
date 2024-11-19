@@ -1,0 +1,34 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-family: 'Work Sans', sans-serif;
+}
+
+header {
+    text-align: center;
+}
+
+h4 {
+    text-transform: uppercase;
+    letter-spacing: 0.1rem;
+}
+
+
+.gridRow {
+    display: flex;
+    flex-direction: row;
+}
+
+.gridItem {
+    display: flex;
+    width: 10px;
+    height: 10px;
+    border: solid black 1px;
+    margin: 1px;
+}
